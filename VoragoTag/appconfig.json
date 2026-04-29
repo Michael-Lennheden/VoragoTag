@@ -1,7 +1,7 @@
 {
   "appName": "Vorago Tag",
   "description": "Alt1 addon for tracking Vorago tags",
-  "appUrl": "./index.html",
+  "appUrl": "./script.js",
   "configUrl": "./appconfig.json",
   "iconUrl": "./nis/alt1-currentskin/QI6u7bi.png",
   "defaultWidth": 218,
