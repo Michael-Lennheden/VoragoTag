@@ -67,6 +67,6 @@ function start() {
 			}
 		}, 100);
 	} else {
-		$("#telosMenu").html('<a href="alt1://addapp/https://github.com/Michael-Lennheden/VoragoTag/appconfig.json">Click here to add this app</a>'); 
+		$("#telosMenu").html('<a href="alt1://addapp/https://michael-lennheden.github.io/VoragoTag/appconfig.json">Click here to add this app</a>'); 
 	}
 }
