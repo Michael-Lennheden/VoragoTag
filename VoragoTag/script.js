@@ -58,17 +58,15 @@ function loadUI() {
     fetch("index.html")
         .then(res => res.text())
         .then(html => {
-            const wrapper = document.createElement("div");
 
-            wrapper.innerHTML = html;
+            const temp = document.createElement("div");
+            temp.innerHTML = html;
 
-            // make it visible in Alt1 overlay
-            wrapper.style.position = "absolute";
-            wrapper.style.top = "0px";
-            wrapper.style.left = "0px";
-            wrapper.style.zIndex = "999999";
+            // IMPORTANT: move children out, not raw string injection
+            while (temp.firstChild) {
+                document.body.appendChild(temp.firstChild);
+            }
 
-            document.body.appendChild(wrapper);
         });
 }
 
