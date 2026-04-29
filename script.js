@@ -53,7 +53,7 @@ var beamTimer = new _timer(function(time) {
 	}
 });
 
-
+/*
 function loadUI() {
     fetch("index.html")
         .then(res => res.text())
@@ -68,13 +68,13 @@ function loadUI() {
             }
 
         });
-}
+}*/
 
 
 //01:38:24 0 hp
 //01:38:48 tag
 //40 ticks
-/*
+
 function start() {
 	if (window.alt1) {
 		setInterval(function(time) {
@@ -87,8 +87,8 @@ function start() {
 	} else {
 		$("#telosMenu").html('<a href="alt1://addapp/https://raw.githubusercontent.com/Michael-Lennheden/VoragoTag/main/VoragoTag/appconfig.json">Click here to add this app</a>'); 
 	}
-}*/
-
+}
+/*
 function start() {
     if (window.alt1) {
 
@@ -109,4 +109,4 @@ function start() {
             '<a href="alt1://addapp/https://raw.githubusercontent.com/Michael-Lennheden/VoragoTag/main/VoragoTag/appconfig.json">Click here to add this app</a>'
         );
     }
-}
+}*/
